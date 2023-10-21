@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <!--
+    The <meta charset="UTF-8"> tag specifies the character encoding for the document.
+    UTF-8 is a widely supported character encoding that includes most characters from all languages.
+    -->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+    The <meta http-equiv="X-UA-Compatible"> tag is used to instruct Internet Explorer to render the webpage using the latest
+    installed version of the browser. This helps ensure compatibility and optimal rendering.
+    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    The <meta name="viewport"> tag is used to control how the webpage is displayed on different devices.
+    "width=device-width" sets the viewport width to the width of the device screen.
+    "initial-scale=1.0" sets the initial zoom level to 100%, ensuring the page displays at full width.
+    -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--
+    The <link> tag is used to include an external CSS file. In this case, it's importing Font Awesome icons.
+    Font Awesome is a popular icon library. The provided URL points to a specific version of the library.
+    -->
+    
+    <link rel="stylesheet" href="monem.css">
+    <!--
+    This <link> tag imports a custom CSS stylesheet named "monem.css." Custom CSS files are used to style
+    the HTML elements in the document according to your design preferences.
+    -->
+    
+    <link rel="icon" href=".jpg">
+    <!--
+    The <link> tag with "rel" set to "icon" specifies the icon or favicon for the webpage, which is displayed in the browser tab.
+    The "href" attribute should point to the path of the icon image file, which should ideally be in .ico format.
+    -->
+    
+    <title>ABDELMONEM ELMONGY</title>
+    <!--
+    The <title> tag sets the title of the webpage, which is displayed in the browser tab.
+    -->
+</head>
+<body>
+	<header>
+        <a href="#" class="logo">ABDELMONEM</a>
+        <!--
+        The <a> tag inside the <header> element creates a hyperlink with the text "ABDELMONEM" acting as the logo.
+        The "href" attribute, set to "#," typically represents a placeholder link to the current page's top.
+        The "class" attribute with the value "logo" is used for styling or identifying the logo element.
+        -->
+        
+        <nav class="navigation">
+            <!--
+            The <nav> tag is used to define a section with navigation links.
+            The "class" attribute with the value "navigation" is added for styling or identification purposes.
+            -->
+            <a href="#skills">Skills</a>
+            <!--
+            An <a> tag represents a navigation link with the text "Skills."
+            The "href" attribute points to the section with the id "skills" within the page.
+            This enables users to navigate directly to the "Skills" section when clicking the link.
+            -->
+            
+            <a href="#projects">Projects</a>
+            <!--
+            An <a> tag represents a navigation link with the text "Projects."
+            The "href" attribute points to the section with the id "projects" within the page.
+            This enables users to navigate directly to the "Projects" section when clicking the link.
+            -->
+            
+            <a href="#contact">Contact</a>
+            <!--
+            An <a> tag represents a navigation link with the text "Contact."
+            The "href" attribute points to the section with the id "contact" within the page.
+            This enables users to navigate directly to the "Contact" section when clicking the link.
+            -->
+        </nav>
+    </header>
+    
+
+	<section class="main">
+        <!--
+        The <section> tag represents a thematic grouping of content on a webpage.
+        It is given a class attribute "main" for styling or identification purposes.
+        -->
+        <div>
+            <!--
+            The <div> element is a container used to group and style content.
+            -->
+            <h2>Hi, I am MONEM</h2>
+            <!--
+            The <h2> tag is used for defining a subsection title, in this case, it introduces the name "MONEM."
+            -->
+            <h3>
+                A Computer engineer with experience in Data Analysis & Business intelligence,
+                who recently graduated from Information Technology Institute (ITI).
+                Coming with strong technical skills in SQL, Python, Power BI, Excel.
+                Always striving for challenging impactful projects.
+            </h3>
+            <!--
+            The <h3> tag is used for providing additional information or details, in this case, about the individual's skills and background.
+            -->
+            <a href="#projects" class="main-btn">Tour in my work</a>
+            <!--
+            An <a> tag represents a navigation link.
+            The "href" attribute points to the section with the id "projects" within the page, facilitating navigation.
+            The "class" attribute "main-btn" is added for styling or identifying the link.
+            -->
+        </div>
+        <br>
+        <!--
+        The <br> tag represents a line break, providing space between elements.
+        -->
+        <div class="social-icons">
+            <!--
+            A <div> element is used to group social media icons, adding a class for styling or identification.
+            -->
+            <a href="https://www.linkedin.com/in/abdelmonem-elmongy-6a454a162/"><i class="fab fa-linkedin"></i></a>
+            <!--
+            An <a> tag represents a link to a social media profile, specifically, LinkedIn.
+            The "href" attribute contains the URL to the LinkedIn profile.
+            Inside, there is an <i> tag that uses a Font Awesome icon for the LinkedIn logo.
+            -->
+            <br>
+            <!--
+            A <br> tag is used to create vertical space between elements.
+            -->
+            <a href="https://github.com/MONEMALI9"><i class="fab fa-github"></i></a>
+            <!--
+            An <a> tag represents a link to a social media profile, specifically, GitHub.
+            The "href" attribute contains the URL to the GitHub profile.
+            Inside, there is an <i> tag that uses a Font Awesome icon for the GitHub logo.
+            -->
+            <br>
+            <!--
+            A <br> tag is used to create vertical space between elements.
+            -->
+        </div>
+    </section>
+    
+    
+
+	<section class="cards" id="skills">
+		<h2 class="title">Skills</h2>
+		<div class="content">
+			<div class="card"> 
+				<div class="icon">
+					<i class="fa-brands fa-python"></i>
+				</div>
+				<div class="info">
+					<h3>Python Programming</h3>
+					<p>Develop projects using OOP concept and library like Pandas, Numpy and other Platform</p>
+				</div>
+			</div>
+			<div class="card"> 
+				<div class="icon">
+					<i class="fa-duotone fa-database"></i>
+				</div>
+				<div class="info">
+					<h3> Data Science</h3>
+					<p>Create EDA after Applying Data Wrangling concept then build Machine Learning model</p>
+				</div>
+			</div>
+			<div class="card"> 
+				<div class="icon">
+					<i class="fa-duotone fa-database"></i>
+				</div>
+				<div class="info">
+					<h3> DataBase SQL programming</h3>
+					<p>Manipulate Data using SQL to get more insights</p>
+				</div>
+			</div>
+			<div class="card"> 
+				<div class="icon">
+					<i class="fa-solid fa-brain-circuit"></i>
+				</div>
+				<div class="info">
+					<h3>Artificial Intellegence</h3>
+					<p>Understand AI concepts and Math behind it to ease my work </p>
+				</div>
+			</div>
+			<div class="card"> 
+				<div class="icon">
+					<i class="fa-solid fa-chart-simple"></i>
+				</div>
+				<div class="info">
+					<h3>visualization tools</h3>
+					<p>build Dashboard using Visualization tools like: Power BI, Tableau, Google Data Studio</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/AI personal trainer.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">AI project using Computer Vision and Analysis Data in Real time Video </p>
+                    <strong class="project-title">
+                        <span>Dev Books</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/bikeshare-system.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and
+						Washington by computing a variety of descriptive statistics.</p>
+                    <strong class="project-title">
+                        <span>Dev Books</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/mellbourne_house.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Predict the house price depend on Type of Real estate, Suburb, Method of Selling, Rooms, Price, Real Estate Agent,
+						Date of Sale, and distance from C.B.D. representing an important part of the local commercial real estate market.</p>
+                    <strong class="project-title">
+                        <span>Dev Books</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/appointmentshow.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">predict if a patient will show up for their scheduled appointment depend on factors</p>
+                    <strong class="project-title">
+                        <span>Dev Books</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <a href="tel:+201272919222" class="tel">
+                        <p>
+                            +201272919222
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <a href="mailto:monem921999@gmail.com" class="mailto">
+                        <p>
+                            monem921999@gmail.com
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <!--
+        The <footer> tag represents the footer section of a webpage, typically containing copyright information and social media links.
+        It is given a class attribute "footer" for styling or identification purposes.
+        -->
+        <p class="footer-title">
+            <!--
+            The <p> tag is used for defining a paragraph or section of text.
+            It contains a copyright notice with the name "ABDELMONEM ELMONGY."
+            -->
+            Copyrights@<span>ABDELMONEM ELMONGY</span>
+            <!--
+            The <span> tag is used to style a specific part of the text differently.
+            In this case, it is used to style the name "ABDELMONEM ELMONGY."
+            -->
+        </p>
+        <div class="social-icons">
+            <!--
+            A <div> element is used to group social media icons.
+            -->
+            <a href="#">
+                <!--
+                An <a> tag represents a navigation link. In this case, it is a placeholder link (href="#") for social media.
+                -->
+                <i class="fab fa-linkedin"></i>
+                <!--
+                An <i> tag is used to display an icon, in this case, it's a Font Awesome LinkedIn icon.
+                -->
+            </a>
+            <a href="#">
+                <!--
+                Another placeholder link for a different social media platform.
+                -->
+                <i class="fab fa-github"></i>
+                <!--
+                Another Font Awesome icon, this time representing GitHub.
+                -->
+            </a>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
