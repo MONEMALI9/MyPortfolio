@@ -31,7 +31,8 @@
     This <link> tag imports a custom CSS stylesheet named "monem.css." Custom CSS files are used to style
     the HTML elements in the document according to your design preferences.
     -->
-    
+    <script src="script.js"></script>
+
     <link rel="icon" href="./images/logo.jpeg">
     <!--
     The <link> tag with "rel" set to "icon" specifies the icon or favicon for the webpage, which is displayed in the browser tab.
@@ -206,6 +207,7 @@
                                 <i class="far fa-file-pdf"></i>
                                 <div>temperory Certificate</div>
                             </a>
+                            <a href="#" id="openLinks" onclick="openLinks()">Open Links</a>
                         </span>
                     </strong>
                 </div>
@@ -581,14 +583,5 @@
         </div>
     </footer>
 </body>
-<script>
-    function openLinks() {
-        // Open the GitHub link in a new tab
-        window.open("https://github.com/MONEMALI9/Examination_System", "_blank");
-        
-        // Open the PDF link in a new tab
-        window.open("./ABDELMONEM ALI .pdf", "_blank");
-    }
-</script>
 
 </html>
