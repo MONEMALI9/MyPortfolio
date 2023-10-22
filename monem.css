@@ -63,7 +63,8 @@ header {
 }
 
 .inline-element {
-  display: inline;
+  align-items: center;
+  display:inline-flex;
 }
 
 .social-icons {
