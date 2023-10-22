@@ -41,7 +41,7 @@ header {
 
 /* Main section styles */
 .main {
-  background-color: #fff;
+  background-color: #cbc7c7;
   padding: 20px;
   text-align: center;
 }
@@ -99,7 +99,43 @@ header {
   border-radius: 5px;
 }
 
-.education-card .education-image img,
+/* Add the following CSS to your existing stylesheet */
+.education-card {
+  display: flex; /* Use flexbox to create a horizontal layout */
+  align-items: center; /* Vertically align items to the center */
+  margin-bottom: 20px; /* Add space between cards */
+}
+
+.education-image {
+  flex: 1; /* Let the image take up 1/3 of the available space */
+  padding: 10px; /* Add some spacing around the image */
+}
+
+.education-image img {
+  max-width:50%; /* Ensure the image doesn't exceed the container width */
+  height: auto;
+}
+
+.education-info {
+  flex: 2; /* Let the text take up 2/3 of the available space */
+  padding: 10px; /* Add spacing around the text */
+}
+
+/* Style the education-title as needed */
+.education-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the more-details link */
+.more-details {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+
 .scholarship-card .scholarship-image img,
 .internship-card .internship-image img,
 .project-card .project-image img {
@@ -107,7 +143,6 @@ header {
   height: auto;
 }
 
-.education-info,
 .scholarship-info,
 .internship-info,
 .project-info {
