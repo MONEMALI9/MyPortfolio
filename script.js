@@ -57,28 +57,24 @@ function fwd() {
     // Check if the password is correct
     if (userPassword === "monem") {
         // If the password is correct, open various links in new tabs
-        window.open("./scholarship/challenger", "_blank");
-        window.open("./scholarship/challenger", "_blank");
-        window.open("./scholarship/challenger", "_blank");
-        window.open("./scholarship/challenger", "_blank");       
+        window.open("./scholarship/challenger.pdf", "_blank");
+        window.open("./scholarship/professional.pdf", "_blank");
+        window.open("./scholarship/advanced.pdf", "_blank");
+        window.open("./scholarship/MLcrossskills.pdf", "_blank");       
     } else {
         alert("Incorrect password. Access denied.");
     }
 }
 
 // Function to open links related to a bachelor's degree
-function fwd() {
+function alx() {
     // Prompt the user for a password
     var userPassword = prompt("Please enter the password:");
 
     // Check if the password is correct
     if (userPassword === "monem") {
         // If the password is correct, open various links in new tabs
-        window.open("https://github.com/MONEMALI9/AwsCodeBuildRole", "_blank");
-        window.open("./education/شهاده مؤقته.pdf", "_blank");
-        window.open("./education/ترجمة الشهادة المؤقته.pdf", "_blank");
-        window.open("./ABDELMONEM ALI .pdf", "_blank");
-        window.open("./ABDELMONEM ALI .pdf", "_blank");
+        window.open("./scholarship/alx.pdf", "_blank");       
     } else {
         alert("Incorrect password. Access denied.");
     }
