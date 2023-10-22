@@ -183,61 +183,54 @@ header {
 
 /***********************************/
 /* Common card styles */
-  /* Common card styles */
-  .cards {
-      padding: 20px;
-  }
+.cards {
+  padding: 20px;
+}
 
-  .title {
-      font-size: 28px; /* Increase the title font size */
-      margin-bottom: 20px;
-      color: #007bff; /* Change the title color */
-  }
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
-  .content {
-      display: flex;
-      flex-wrap: wrap;
-  }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  /* Card styles */
-  .education-card {
-      width: calc(30% - 20px); /* Adjust card width with margin */
-      margin: 10px;
-      background-color: #fff;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-      border-radius: 10px;
-      overflow: hidden; /* Hide overflowing content */
-      transition: transform 0.2s ease-in-out;
-  }
+/* Card styles */
+.education-card {
+  width: 30%;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-  .education-card:hover {
-      transform: scale(1.05); /* Add a hover effect for scaling */
-  }
+.education-image img {
+  max-width: 100%;
+  height: auto;
+}
 
-  .education-image img {
-      max-width: 100%;
-      height: auto;
-  }
+.education-category {
+  font-style: italic;
+  color: #6c757d;
+}
 
-  .education-category {
-      font-style: italic;
-      color: #555; /* Change the text color */
-  }
+.education-title {
+  font-weight: bold;
+  color: #212529;
+}
 
-  .education-title {
-      font-weight: bold;
-      color: #333; /* Change the title color */
-      padding: 10px;
-      background-color: #f5f5f5; /* Add a background color */
-      border-top: 1px solid #ddd; /* Add a top border */
-  }
+.more-details {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
 
-  .more-details {
-      color: #007bff;
-      text-decoration: none;
-      margin-left: 10px;
-  }
-
-  .more-details:hover {
-      text-decoration: underline;
-  }
+.more-details:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
