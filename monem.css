@@ -49,6 +49,9 @@ header {
 .main h3 {
   font-size: 18px;
   margin: 20px;
+  align-items: center;
+  display:inline-flex;
+  justify-content: center;
 }
 
 .main-btn {
@@ -139,7 +142,8 @@ header {
 /* Contact section styles */
 .contact {
   background-color: #f0f0f0;
-  padding: 40px;
+  padding: 0.05px;
+  
 }
 
 .contact .title {
@@ -152,6 +156,16 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: #333;
+}
+
+.mailto{color: #333;}
+
+.cards.contact .content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  gap: 10px; /* adjust the gap between the icons as needed */
 }
 
 /* Footer styles */
