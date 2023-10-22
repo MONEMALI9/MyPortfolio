@@ -70,6 +70,7 @@ header {
   display:inline-flex;
   justify-content: center;
   gap: 20px; /* adjust the gap between the icons as needed */
+  color: #333;
 }
 
 .social-icons {
