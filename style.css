@@ -11,11 +11,10 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
-  left: 20px;
 }
 
 /* Header styles */
-header {
+sider {
   background-color: #333;
   color: #fff;
   text-align: left;
@@ -41,22 +40,19 @@ header {
 /* Navigation styles */
 .navigation {
   margin-top: 20px;
-  
 }
 
 .navigation a {
   text-decoration: none;
   color: #fff;
   margin: 0 15px;
-  left: 20px;
 }
 
 /* Main section styles */
 .main {
   background-color: #ffffff;
   padding: 20px;
-  text-align: flex;
-  left: 20px;
+  text-align: center;
 }
 
 .main h2 {
