@@ -69,7 +69,7 @@ header {
   align-items: center;
   display:inline-flex;
   justify-content: center;
-  gap: 10px; /* adjust the gap between the icons as needed */
+  gap: 20px; /* adjust the gap between the icons as needed */
 }
 
 .social-icons {
