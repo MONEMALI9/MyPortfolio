@@ -180,3 +180,56 @@ header {
 .footer-title span {
   font-weight: bold;
 }
+/*education section*/
+/* Common card styles */
+.cards {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Card styles */
+.education-card {
+  width: 30%;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.education-category {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.education-title {
+  font-weight: bold;
+  color: #212529;
+}
+
+.more-details {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.more-details:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
