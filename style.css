@@ -58,7 +58,7 @@ header {
 .main-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -68,11 +68,15 @@ header {
 /* Social icons */
 .social-icons {
   margin-top: 20px;
+  color: #000000;
+  display: inline-flex;
 }
 
 .inline-element {
-  display: inline-block;
+  display: inline-flex;
   margin: 0 15px;
+  gap: 25px;
+  color: #000000;
 }
 
 /* Cards section styles (Education, Scholarship, Internship, Projects) */
@@ -117,13 +121,14 @@ header {
 }
 
 .education-info {
-  flex: 2; /* Let the text take up 2/3 of the available space */
-  padding: 10px; /* Add spacing around the text */
+  flex: 3; /* Let the text take up 2/3 of the available space */
+  padding: 5px; /* Add spacing around the text */
 }
 
 /* Style the education-title as needed */
 .education-title {
-  display: flex;
+  /*display: flex;*/
+  display: block;
   justify-content: space-between;
   align-items: center;
 }
@@ -131,7 +136,7 @@ header {
 /* Style the more-details link */
 .more-details {
   text-decoration: none;
-  color: #007BFF;
+  color: #000000;
   font-weight: bold;
 }
 
