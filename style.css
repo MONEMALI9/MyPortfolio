@@ -19,6 +19,13 @@ header {
   color: #fff;
   text-align: center;
   padding: 10px 0;
+  width: 250px; /* Adjust the width as needed */
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%; /* Fill the full height of the viewport */
+  text-align: center;
 }
 
 .logo {
@@ -28,42 +35,6 @@ header {
   font-weight: bold;
 }
 
-/* Style for the left header */
-.left-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px; /* Adjust the width as needed */
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-.left-header .logo {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.left-header .navigation {
-  text-align: left;
-}
-
-.left-header .navigation a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  margin: 10px 0;
-  font-size: 18px;
-}
-
-/* Add hover effect for navigation links */
-.left-header .navigation a:hover {
-  text-decoration: underline;
-}
 
 
 /* Navigation styles */
