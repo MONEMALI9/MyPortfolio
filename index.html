@@ -25,26 +25,28 @@
     The <link> tag is used to include an external CSS file. In this case, it's importing Font Awesome icons.
     Font Awesome is a popular icon library. The provided URL points to a specific version of the library.
     -->
+
     
-    <link rel="stylesheet" href="monem.css">
+    <link rel="stylesheet" href="style.css">
     <!--
     This <link> tag imports a custom CSS stylesheet named "monem.css." Custom CSS files are used to style
     the HTML elements in the document according to your design preferences.
     -->
-    <script src="script.js"></script>
 
     <link rel="icon" href="./images/logo.jpeg">
     <!--
     The <link> tag with "rel" set to "icon" specifies the icon or favicon for the webpage, which is displayed in the browser tab.
     The "href" attribute should point to the path of the icon image file, which should ideally be in .ico format.
     -->
-    
+    <script src="script.js"></script>
+
     <title>ABDELMONEM ELMONGY</title>
     <!--
     The <title> tag sets the title of the webpage, which is displayed in the browser tab.
     -->
 </head>
 <body>
+    
 	<header>
         <a href="#" class="logo">ABDELMONEM ALI ELMONGY</a>
         <!--
@@ -197,17 +199,21 @@
                             online exams, manage exam-related data, and provide reporting capabilities for ITI staff.<br>
                             <br>
                         </span>
-        
-                        <span class="inline-element">
-                            <a href="https://github.com/MONEMALI9/Examination_System" class="more-details" target="_blank">
-                                <i class="fab fa-github"></i>
-                                <div>Project GitHub repo</div>
+
+                        <span class="inline-element">    
+                            <a href="#" id="openLinks" onclick="openLinks()">
+                                <div>Open Links</div>
+                                <!--
+                                    <a href="https://github.com/MONEMALI9/Examination_System" class="more-details" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <div>Project GitHub repo</div>
+                                </a>
+                                <a href="./ABDELMONEM ALI .pdf" target="_blank">
+                                    <i class="far fa-file-pdf"></i>
+                                    <div>temperory Certificate</div>
+                                </a> 
+                                -->
                             </a>
-                            <a href="./ABDELMONEM ALI .pdf" target="_blank">
-                                <i class="far fa-file-pdf"></i>
-                                <div>temperory Certificate</div>
-                            </a>
-                            <a href="#" id="openLinks" onclick="openLinks()">Open Links</a>
                         </span>
                     </strong>
                 </div>
@@ -583,5 +589,4 @@
         </div>
     </footer>
 </body>
-
 </html>
