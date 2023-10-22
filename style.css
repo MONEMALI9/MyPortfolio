@@ -28,6 +28,44 @@ header {
   font-weight: bold;
 }
 
+/* Style for the left header */
+.left-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; /* Adjust the width as needed */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.left-header .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.left-header .navigation {
+  text-align: left;
+}
+
+.left-header .navigation a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Add hover effect for navigation links */
+.left-header .navigation a:hover {
+  text-decoration: underline;
+}
+
+
 /* Navigation styles */
 .navigation {
   margin-top: 20px;
@@ -104,25 +142,25 @@ header {
 }
 
 /* Add the following CSS to your existing stylesheet */
-.scholarship-card
+.scholarship-card,
 .education-card {
   display: flex; /* Use flexbox to create a horizontal layout */
   align-items: center; /* Vertically align items to the center */
   margin-bottom: 20px; /* Add space between cards */
 }
-.scholarship-image
+.scholarship-image,
 .education-image {
   flex: 1; /* Let the image take up 1/3 of the available space */
   padding: 10px; /* Add some spacing around the image */
 }
 
-.scholarship-image img
+.scholarship-image img,
 .education-image img {
   max-width:50%; /* Ensure the image doesn't exceed the container width */
   height: auto;
 }
 
-.scholarship-info
+.scholarship-info,
 .education-info {
   flex: 3; /* Let the text take up 2/3 of the available space */
   padding: 5px; /* Add spacing around the text */
@@ -130,7 +168,7 @@ header {
 
 /* Style the education-title as needed */
 
-.scholarship-title
+.scholarship-title,
 .education-title {
   /*display: flex;*/
   display: block;
@@ -146,14 +184,14 @@ header {
 }
 
 
-.scholarship-card .scholarship-image img,
+
 .internship-card .internship-image img,
 .project-card .project-image img {
   max-width: 100px; /* Adjust the image width as needed */
   height: auto;
 }
 
-.scholarship-info,
+
 .internship-info,
 .project-info {
   flex: 2; /* Adjusted flex value for text content */
@@ -189,4 +227,3 @@ header {
   color: #fff;
   margin: 0 10px;
 }
-
