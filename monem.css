@@ -62,10 +62,13 @@ header {
   margin-top: 20px;
 }
 
+.inline-element {
+  display: inline;
+}
+
 .social-icons {
   margin-top: 20px;
 }
-
 .social-icons a {
   color: #333;
   font-size: 24px;
