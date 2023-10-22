@@ -51,7 +51,24 @@ header {
 .main {
   background-color: #ffffff;
   padding: 20px;
-  text-align: center;
+  text-align: left; /* Adjusted text alignment */
+}
+
+.main h2 {
+  font-size: 36px;
+}
+
+.main h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.main-btn {
+  /* Main section styles */
+.main {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: left; /* Adjusted text alignment */
 }
 
 .main h2 {
@@ -65,6 +82,12 @@ header {
 
 .main-btn {
   display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #000000;
   color: #fff;
