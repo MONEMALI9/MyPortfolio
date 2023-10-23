@@ -32,15 +32,12 @@ header {
   color: #fff;
   font-weight: bold;
 }
-.personal-photo{
-  width: 5px;
-  top: 0;
-  left: 0;
-}
+
+
 
 /* Navigation styles */
 .navigation {
-  margin-top: 250px;
+  margin-top: 50px;
   text-align: left; /* Adjusted text alignment */
 }
 
