@@ -60,7 +60,7 @@ function fwd() {
         window.open("./scholarship/challenger.pdf", "_blank");
         window.open("./scholarship/professional.pdf", "_blank");
         window.open("./scholarship/advanced.pdf", "_blank");
-        window.open("./scholarship/MLcrossskills.pdf", "_blank");       
+        window.open("./scholarship/MLcrossskills.pdf", "_blank");
     } else {
         alert("Incorrect password. Access denied.");
     }
@@ -74,7 +74,7 @@ function alx() {
     // Check if the password is correct
     if (userPassword === "monem") {
         // If the password is correct, open various links in new tabs
-        window.open("./scholarship/alx.pdf", "_blank");       
+        window.open("./scholarship/alx.pdf", "_blank");
     } else {
         alert("Incorrect password. Access denied.");
     }

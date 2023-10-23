@@ -16,8 +16,10 @@ body {
 /* Header Styles */
 header {
   background-color: #000000;
-  padding: 20px; /* Adjusted padding for spacing */
-  width: 250px; /* Adjust the width as needed */
+  padding: 20px;
+  /* Adjusted padding for spacing */
+  width: 250px;
+  /* Adjust the width as needed */
   position: fixed;
   top: 0;
   left: 0;
@@ -37,7 +39,8 @@ header {
 /* Navigation Styles */
 .navigation {
   margin-top: 30px;
-  text-align: left; /* Adjusted text alignment */
+  text-align: left;
+  /* Adjusted text alignment */
   color: #fff;
   font-weight: bold;
 }
@@ -45,15 +48,18 @@ header {
 .navigation a {
   text-decoration: none;
   color: #fff;
-  display: block; /* Display each navigation link as a block */
-  margin: 10px 0; /* Adjusted margin for spacing */
+  display: block;
+  /* Display each navigation link as a block */
+  margin: 10px 0;
+  /* Adjusted margin for spacing */
 }
 
 /* Main Section Styles */
 .main {
   background-color: #ffffff;
   padding: 20px;
-  text-align: left; /* Adjusted text alignment */
+  text-align: left;
+  /* Adjusted text alignment */
   margin-left: 250px;
 }
 
@@ -90,7 +96,8 @@ header {
   background-color: #fff;
   padding: 20px;
   margin-top: 20px;
-  text-align: left; /* Adjusted text alignment */
+  text-align: left;
+  /* Adjusted text alignment */
   margin-left: 250px;
 }
 
@@ -104,7 +111,8 @@ header {
 .card-content {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align image to the left */
+  justify-content: flex-start;
+  /* Align image to the left */
   background-color: #f0f0f0;
   padding: 10px;
   margin: 10px;
