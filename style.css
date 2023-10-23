@@ -1,22 +1,23 @@
 /* Reset default margin and padding for all elements */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Apply some basic styling to the body */
+/* Basic styling for the body */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
 }
-/* Header styles */
+
+/* Header Styles */
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px; /* Adjusted padding for better spacing */
+  padding: 20px; /* Adjusted padding for spacing */
   width: 250px; /* Adjust the width as needed */
   position: fixed;
   top: 0;
@@ -25,7 +26,6 @@ header {
   text-align: center;
 }
 
-
 .logo {
   font-size: 24px;
   text-decoration: none;
@@ -33,9 +33,7 @@ header {
   font-weight: bold;
 }
 
-
-
-/* Navigation styles */
+/* Navigation Styles */
 .navigation {
   margin-top: 50px;
   text-align: left; /* Adjusted text alignment */
@@ -48,7 +46,7 @@ header {
   margin: 10px 0; /* Adjusted margin for spacing */
 }
 
-/* Main section styles */
+/* Main Section Styles */
 .main {
   background-color: #ffffff;
   padding: 20px;
@@ -58,7 +56,6 @@ header {
 
 .main h2 {
   font-size: 36px;
-  
 }
 
 .main h3 {
@@ -76,7 +73,7 @@ header {
   margin-top: 20px;
 }
 
-/* Social icons */
+/* Social Icons */
 .social-icons {
   margin-top: 20px;
   color: #000000;
@@ -90,7 +87,7 @@ header {
   color: #000000;
 }
 
-/* Cards section styles (Education, Scholarship, Internship, Projects) */
+/* Cards Section Styles (Education, Scholarship, Internship, Projects) */
 .cards {
   background-color: #fff;
   padding: 20px;
@@ -105,7 +102,7 @@ header {
   margin-bottom: 20px;
 }
 
-/* Card styles */
+/* Card Styles */
 .card-content {
   display: flex;
   align-items: center;
@@ -116,60 +113,57 @@ header {
   border-radius: 5px;
 }
 
-/* Add the following CSS to your existing stylesheet */
+/* Specific card styles */
 .scholarship-card,
-.education-card {
-  display: flex; /* Use flexbox to create a horizontal layout */
-  align-items: center; /* Vertically align items to the center */
-  margin-bottom: 20px; /* Add space between cards */
+.education-card,
+.internship-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
 .scholarship-image,
-.education-image {
-  flex: 1; /* Let the image take up 1/3 of the available space */
-  padding: 10px; /* Add some spacing around the image */
+.education-image,
+.internship-image {
+  flex: 1;
+  padding: 10px;
 }
 
 .scholarship-image img,
-.education-image img {
-  max-width:50%; /* Ensure the image doesn't exceed the container width */
+.education-image img,
+.internship-image img {
+  max-width: 50%;
   height: auto;
 }
 
 .scholarship-info,
-.education-info {
-  flex: 3; /* Let the text take up 2/3 of the available space */
-  padding: 5px; /* Add spacing around the text */
+.education-info,
+.internship-info {
+  flex: 3;
+  padding: 5px;
 }
 
-/* Style the education-title as needed */
-
 .scholarship-title,
-.education-title {
-  /*display: flex;*/
+.education-title,
+.internship-title {
   display: block;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Style the more-details link */
 .more-details {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
 }
 
-
-
-.internship-card .internship-image img,
 .project-card .project-image img {
-  max-width: 100px; /* Adjust the image width as needed */
+  max-width: 100px;
   height: auto;
 }
 
-
-.internship-info,
 .project-info {
-  flex: 2; /* Adjusted flex value for text content */
+  flex: 2;
 }
 
 .more-details {
@@ -185,7 +179,7 @@ header {
   text-decoration: underline;
 }
 
-/* Footer styles */
+/* Footer Styles */
 .footer {
   background-color: #333;
   color: #fff;
