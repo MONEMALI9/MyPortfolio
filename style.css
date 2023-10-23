@@ -116,7 +116,8 @@ header {
 /* Specific card styles */
 .scholarship-card,
 .education-card,
-.internship-card {
+.internship-card,
+.project-card {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -124,28 +125,32 @@ header {
 
 .scholarship-image,
 .education-image,
-.internship-image {
+.internship-image,
+.project-image {
   flex: 1;
   padding: 10px;
 }
 
 .scholarship-image img,
 .education-image img,
-.internship-image img {
+.internship-image img,
+.project-image img {
   max-width: 50%;
   height: auto;
 }
 
 .scholarship-info,
 .education-info,
-.internship-info {
+.internship-info,
+.project-info {
   flex: 3;
   padding: 5px;
 }
 
 .scholarship-title,
 .education-title,
-.internship-title {
+.internship-title,
+.project-title {
   display: block;
   justify-content: space-between;
   align-items: center;
@@ -155,15 +160,6 @@ header {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-}
-
-.project-card .project-image img {
-  max-width: 100px;
-  height: auto;
-}
-
-.project-info {
-  flex: 2;
 }
 
 .more-details {
