@@ -76,15 +76,15 @@ header {
 /* Social Icons */
 .social-icons {
   margin-top: 20px;
-  color: #000000;
+  color: #ffffff;
   display: inline-flex;
+  
 }
 
 .inline-element {
   display: inline-flex;
   margin: 0 15px;
   gap: 25px;
-  color: #000000;
 }
 
 /* Cards Section Styles (Education, Scholarship, Internship, Projects) */
